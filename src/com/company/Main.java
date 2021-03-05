@@ -34,10 +34,10 @@ public class Main {
         Rise rise = new Rise("Rise ", "Krasnodar");
 
         switch (className){
-            case "bread": return bread.print();
-            case "apples": return apples.print();
-            case "rise": return rise.print();
+            case "bread" -> bread.print();
+            case "apples" -> apples.print();
+            case "rise" -> rise.print();
         }
-        return null;
+        return className;
     }
 }
