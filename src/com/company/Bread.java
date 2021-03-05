@@ -18,8 +18,7 @@ public class Bread extends Food implements Printable{
     }
 
     @Override
-    public String print() {
+    public void print() {
         System.out.println(getName()+"\nPrice: "+price);
-        return null;
     }
 }
